@@ -1,0 +1,25 @@
+title: Mehran Blog
+description: Welcome to Mehran official blog
+encoding: UTF-8
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-hacker
+
+# needed for jekyll-sitemap generator
+url: "https://mehran.github.io/blog.mehran.co/" 
+
+# logo
+avatar: /assets/images/jekyll-logo.svg 
+
+excerpt_separator: <!--more-->
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
